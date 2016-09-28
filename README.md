@@ -8,7 +8,8 @@ This is a Go program that attempts to recover the password used by McAfee VirusS
 **Created by Valer Bocan, PhD (www.bocan.ro)**
 
 **How to brute force McAfee VirusScan Console password:**
-- **STEP 1**: Retrieve the hash of the McAfee VirusScan hash from HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\McAfee\DesktopProtection\UPIEx  The hash should look like a BASE64 encoded string, such as 1Or2ZtCTFvnWGxR1M1OnPV+88Eg=
+- **STEP 1**: Retrieve the hash of the McAfee VirusScan hash from *HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\McAfee\DesktopProtection\UPIEx*
+The hash should look like a BASE64 encoded string, such as 1Or2ZtCTFvnWGxR1M1OnPV+88Eg=
 - **STEP 2**: Set up cracking parameters: hash to crack (from previous step), password length, alphabet and degree of parallelism
 - **STEP 3**: Launch program on the fastest machine you have available
 - **STEP 4**: ... wait ... zzz ...
@@ -27,4 +28,4 @@ Some hashes for you to crack:
 - WoEuoXP/I1hxbgri8otQ+ZSCh6A= (9 chars, lower and upper case letters)
 - +EQwmmJeZonna+XpXmzj4AGCg14= (extremely long password, presumably 17 characters long. This is a real challenge!)
 
-**NOTE:** This program is of little practical value because of the time it may take to find long and complicated passwords. A more sensible aproapch is using precompiled word lists, leet speak rules and other variations to reduce the time.
+**NOTE:** This program is of little practical value because of the time it may take to find long and complicated passwords. A more sensible approach is to use precompiled word lists, leet speak rules and other variations to reduce the time.
