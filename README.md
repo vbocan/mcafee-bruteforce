@@ -1,9 +1,5 @@
-# mcafee-bruteforce
+# Brute Force Password Cracker for McAfee VirusScan
 Brute force password cracker for McAfee VirusScan
-
-Brute Force Password Cracker for McAfee VirusScan
-=======================
-This is a Go program that attempts to recover the password used by McAfee VirusScan to unlock the UI by brute forcing it. 
 --------------------------------------------------------------------------------------------
 **Created by Valer Bocan, PhD (www.bocan.ro)**
 
