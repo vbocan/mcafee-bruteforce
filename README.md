@@ -1,7 +1,4 @@
 # Brute Force Password Cracker for McAfee VirusScan
-Brute force password cracker for McAfee VirusScan
---------------------------------------------------------------------------------------------
-**Created by Valer Bocan, PhD (www.bocan.ro)**
 
 **How to brute force McAfee VirusScan Console password:**
 - **STEP 1**: Retrieve the hash of the McAfee VirusScan hash from *HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\McAfee\DesktopProtection\UPIEx*
